@@ -8,7 +8,7 @@ import V6 from "../assest/macro.jpg";
 export default class Home extends Component{
     render(){
         return<>
-        <div className="body">
+        <div className="homeBody">
 
         <div className="navPage">
         {/* background */}
@@ -120,7 +120,12 @@ export default class Home extends Component{
         <h3>Not everybody needs to track their macronutrient intake. But plenty of people find that as their fitness and physique goals get more specific, dialing in their nutrition in this way helps them fuel their training and achieve better results. According to one expert, it can be helpful even if it's just a temporary experiment.</h3>
       </div>
         </div>
-      
+      {/* part7 */}
+       <div className="part7">
+
+       </div>
+
+
         </>
     }
 }
