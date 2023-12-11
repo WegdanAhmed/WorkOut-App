@@ -8,8 +8,7 @@ import V6 from "../assest/macro.jpg";
 export default class Home extends Component{
     render(){
         return<>
-        <div className="homeBody">
-
+       
         <div className="navPage">
         {/* background */}
        <video src={V3} type="video/mp4"  autoPlay muted loop/>
@@ -26,36 +25,33 @@ export default class Home extends Component{
           <Link className="nav-link " aria-current="page" to="#">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="#">calculating Calorise</Link>
+          <Link className="nav-link" to="/calculatingcalorise">calculating Calorise</Link>
         </li>
         <li className="nav-item dropdown">
           <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Exercises
           </Link>
           <ul className="list dropdown-menu bg-dark">
-            <li><Link className="dropdown-item" to="#">Abdominals</Link></li>
-            <li><Link className="dropdown-item" to="#">Abductors</Link></li>
-            <li><Link className="dropdown-item" to="#">Adductors</Link></li>
-            <li><Link className="dropdown-item" to="#">Abductors</Link></li>
-            <li><Link className="dropdown-item" to="#">Biceps</Link></li>
-            <li><Link className="dropdown-item" to="#">Calves</Link></li>
-            <li><Link className="dropdown-item" to="#">Chest</Link></li>
-            <li><Link className="dropdown-item" to="#">Forearms</Link></li>
-            <li><Link className="dropdown-item" to="#">Glutes</Link></li>
-            <li><Link className="dropdown-item" to="#">Hamstrings</Link></li>
-            <li><Link className="dropdown-item" to="#">Lats</Link></li>
-            <li><Link className="dropdown-item" to="#">Lower Back</Link></li>
-            <li><Link className="dropdown-item" to="#">Neck</Link></li>
-            <li><Link className="dropdown-item" to="#">Quadriceps</Link></li>
-            <li><Link className="dropdown-item" to="#">Shoulders</Link></li>
-            <li><Link className="dropdown-item" to="#">Traps</Link></li>
-            <li><Link className="dropdown-item" to="#">Triceps</Link></li>
-            <li><Link className="dropdown-item" to="#">Upper Back</Link></li>
+            <li><Link className="dropdown-item" to="/abdominals">Abdominals</Link></li>
+            <li><Link className="dropdown-item" to="/abductors">Abductors</Link></li>
+            <li><Link className="dropdown-item" to="/adductors">Adductors</Link></li>
+            <li><Link className="dropdown-item" to="/biceps">Biceps</Link></li>
+            <li><Link className="dropdown-item" to="/calves">Calves</Link></li>
+            <li><Link className="dropdown-item" to="/chest">Chest</Link></li>
+            <li><Link className="dropdown-item" to="/forearms">Forearms</Link></li>
+            <li><Link className="dropdown-item" to="/glutes">Glutes</Link></li>
+            <li><Link className="dropdown-item" to="/hamstrings">Hamstrings</Link></li>
+            <li><Link className="dropdown-item" to="/lats">Lats</Link></li>
+            <li><Link className="dropdown-item" to="/lowerback">Lower Back</Link></li>
+            <li><Link className="dropdown-item" to="/neck">Neck</Link></li>
+            <li><Link className="dropdown-item" to="/quadriceps">Quadriceps</Link></li>
+            <li><Link className="dropdown-item" to="/shoulders">Shoulders</Link></li>
+            <li><Link className="dropdown-item" to="/traps">Traps</Link></li>
+            <li><Link className="dropdown-item" to="/triceps">Triceps</Link></li>
+            <li><Link className="dropdown-item" to="/upperback">Upper Back</Link></li>
           </ul>
         </li>
-
-    
-      </ul>
+   </ul>
     </div>
   </div>
       </nav>
@@ -98,8 +94,7 @@ export default class Home extends Component{
                <h3>Personal Macros-based Coaching is the simplest and most effective way to accelerate you towards your goals!</h3>
              </div>   
        </div>
-         
-       {/* part4 */}
+           {/* part4 */}
        <div className="part4 container">
         <div className="row">
         <div className="boximgP4 col-md-6 ">
@@ -109,23 +104,13 @@ export default class Home extends Component{
                 <h2>Step up your running and walking workouts</h2>
                 <p>Running and walking are two of the best exercises — and among the easiest to adopt — for almost everyone. But it can be easy to get in stuck in a rut. Some ways to reignite the excitement and boost commitment for these activities are to set goals and challenges, enlist a workout buddy, explore new routes, do more interval training, and buy fun accessories.</p>
            </div>
-            
-           
         </div>
        </div>
-
       {/* part6 */}
       <div className="part6 container">
         <h2>SHOULD I TRACK MY MACROS?</h2>
         <h3>Not everybody needs to track their macronutrient intake. But plenty of people find that as their fitness and physique goals get more specific, dialing in their nutrition in this way helps them fuel their training and achieve better results. According to one expert, it can be helpful even if it's just a temporary experiment.</h3>
       </div>
-        </div>
-      {/* part7 */}
-       <div className="part7">
-
-       </div>
-
-
         </>
     }
 }
