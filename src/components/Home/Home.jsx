@@ -22,14 +22,14 @@ export default class Home extends Component{
      <div className="collapse navbar-collapse  " id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link className="nav-link " aria-current="page" to="#">Home</Link>
+          <Link className="nav-link " aria-current="page" to="/home">Home</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/calculatingcalorise">calculating Calorise</Link>
         </li>
         <li className="nav-item dropdown">
           <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Exercises
+            Exercises List
           </Link>
           <ul className="list dropdown-menu bg-dark">
             <li><Link className="dropdown-item" to="/abdominals">Abdominals</Link></li>
